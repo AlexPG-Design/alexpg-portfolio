@@ -1,0 +1,85 @@
+/* ANIMATIONS HERO */
+.hero-title {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.hero-subtitle {
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.btn-primary {
+  animation: fadeInUp 1.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+/* ANIMATIONS PROJECT */
+.project-card {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.project-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+
+/* ANIMATIONS DESIGN */
+.design-card {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.design-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.design-card:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.design-card:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+
+/* ANIMATIONS ABOUT */
+.about-text, .about-image img {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.about-text {
+  animation-delay: 0.2s;
+}
+
+
+/* ANIMATIONS CONTACT */
+.contact-form,
+.contact-info {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.contact-info {
+  animation-delay: 0.2s;
+}
+
+.footer {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease forwards;
+}
