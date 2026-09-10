@@ -410,7 +410,7 @@
 .btn-email {
   display: inline-block;
   width: 100%;
-  max-width: 260px; /* misma anchura que tus otros botones */
+  max-width: 260px;
   text-align: center;
 }
 
@@ -470,6 +470,10 @@
   font-weight: 500;
   text-decoration: none;
   transition: 0.3s ease;
+
+  /* 🔥 SOLUCIÓN DEL PROBLEMA DE GITHUB */
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .contact-info a:hover {
@@ -573,6 +577,7 @@
 
   .contact-info li {
     justify-content: center;
+    align-items: flex-start; /* 🔥 MEJORA PARA URLs LARGAS */
   }
 
   /* Footer */
