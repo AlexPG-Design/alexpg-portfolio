@@ -294,6 +294,35 @@
   cursor: pointer;
 }
 
+.designs-filters{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-bottom:60px;
+}
+
+.filter-btn{
+  padding:10px 20px;
+  border:1px solid #d4d4d4;
+  border-radius:6px;
+  background:#fff;
+  color:#444;
+  font-family:inherit;
+  font-size:0.95rem;
+  transition:.3s ease;
+}
+
+.filter-btn:hover{
+  background:#222;
+  color:#fff;
+}
+
+.filter-btn.active{
+  background:#222;
+  color:#fff;
+}
+
 
 /* =========================================================
    ABOUT SECTION
@@ -351,7 +380,6 @@
   display: inline-block;
   margin-top: 5px;
 }
-
 
 
 /* =========================================================
@@ -427,7 +455,7 @@
 
 .contact-info h3 {
   font-size: 1.4rem;
-  margin-bottom: 25px;
+  margin-bottom: 35px;
   color: #222;
 }
 

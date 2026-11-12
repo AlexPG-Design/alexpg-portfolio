@@ -5,10 +5,10 @@
   <!-- META ELEMENTS -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#ffffff"> <!-- Mejora visual (interfaz ) del navegador, cuandos se muestra la web, sobre todo en moviles.  -->
   <meta name="author" content="Alex PG">
   <meta name="description" content="Galería de diseños de AlexPG: trabajos gráficos, composiciones visuales y proyectos creativos.">
-  <meta name="keywords" content="diseño web, portfolio, proyectos digitales, AlexPG, desarrollador front-end, diseño visual">
+  <meta name="keywords" content="diseño web, portfolio, proyectos digitales, AlexPG, desarrollador front-end, diseño visual, seo, diseño">
 
    <!-- META OPEN GRAPH ELEMENTS -->
   <meta property="og:title" content="Diseños - AlexPG">
@@ -64,63 +64,157 @@
     <h1 class="designs-title">Mis Diseños</h1>
     <p class="designs-subtitle">Una colección visual de mis trabajos gráficos y creativos.</p>
 
+    <div class="designs-filters">
+
+      <button class="filter-btn active" data-filter="all">Todo</button>
+      <button class="filter-btn" data-filter="fondos">Fondos</button>
+      <button class="filter-btn" data-filter="banners">Banners</button>
+      <button class="filter-btn" data-filter="logos">Logotipos</button>
+      <button class="filter-btn" data-filter="vectores">Vectores</button>
+      <button class="filter-btn" data-filter="educacion">Educación</button>
+      <button class="filter-btn" data-filter="prototipos">Prototipos</button>
+      <button class="filter-btn" data-filter="curriculums">Currículums</button>
+
+    </div>
+
     <div class="designs-grid">
 
-      <!-- DESIGN CARD 1 -->
-      <div class="design-card">
-        <img src="img/designs/Fondo-Tecnologico.webp" alt="Fondo-Tecnologico" loading="lazy" class="open-modal">
+        <!-- DESIGN CARD 1 -->
+      <div class="design-card" data-category="fondos">
+        <img src="img/designs/Fondo Tech.webp" alt="Fondo-Tecnologico" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 2 -->
-      <div class="design-card">
+        <!-- DESIGN CARD 2 -->
+      <div class="design-card" data-category="banners">
         <img src="img/designs/Banner-Youtube.webp" alt="Banner-Youtube" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 3 -->
-      <div class="design-card">
+        <!-- DESIGN CARD 3 -->
+      <div class="design-card" data-category="fondos">
         <img src="img/designs/Fondo-Loco.webp" alt="Fondo oscuridad" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 4 -->
-      <div class="design-card">
+        <!-- DESIGN CARD 4 -->
+      <div class="design-card" data-category="logos">
         <img src="img/designs/Logo-Mine.webp" alt="Logotipo APG" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 5 -->
-      <div class="design-card">
+        <!-- DESIGN CARD 5 -->
+      <div class="design-card" data-category="fondos">
         <img src="img/designs/Fondo-Brainrots.webp" alt="Fondo Brainrots" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 6 -->
-      <div class="design-card">
+        <!-- DESIGN CARD 6 -->
+      <div class="design-card" data-category="educacion">
         <img src="img/designs/Clases-Apoyo-Escolar.webp" alt="Clases de Apoyo Escolar" loading="lazy" class="open-modal">
       </div>
 
-      <!-- DESIGN CARD 7 -->
-    <div class="design-card">
-      <img src="img/designs/Clases-Informática.webp" alt="Clases de Informática" loading="lazy" class="open-modal">
-    </div>
+        <!-- DESIGN CARD 7 -->
+      <div class="design-card" data-category="educacion">
+        <img src="img/designs/Clases-Informática.webp" alt="Clases de Informática" loading="lazy" class="open-modal">
+      </div>
 
-      <!-- DESIGN CARD 8 -->
-     <div class="design-card">
-      <img src="img/designs/Clases de Programación.webp" alt="Clases de Programación" loading="lazy" class="open-modal">
+        <!-- DESIGN CARD 8 -->
+     <div class="design-card" data-category="educacion">
+      <img src="img/designs/Clases-Programación.webp" alt="Clases de Programación" loading="lazy" class="open-modal">
      </div>
 
-      <!-- DESIGN CARD 9 -->
-     <div class="design-card">
-      <img src="img/designs/Clases Diseño Gráfico.webp" alt="Clases de Diseño Gráfico" loading="lazy" class="open-modal">
+        <!-- DESIGN CARD 9 -->
+     <div class="design-card" data-category="educacion">
+      <img src="img/designs/Clases-Diseño-Gráfico.webp" alt="Clases de Diseño Gráfico" loading="lazy" class="open-modal">
      </div>
 
-      <!-- DESIGN CARD 10 -->
-     <div class="design-card">
-      <img src="img/designs/Curriculum.webp" alt="Curriculum Vitae" loading="lazy" class="open-modal">
+        <!-- DESIGN CARD 10 -->
+     <div class="design-card" data-category="curriculums">
+      <img src="img/designs/Curriculum-Ejemplo.webp" alt="Curriculum Vitae" loading="lazy" class="open-modal">
      </div>
 
-          <!-- DESIGN CARD 11 -->
-     <div class="design-card">
-      <img src="img/designs/Prototipo Web.webp" alt="Prototipo Web" loading="lazy" class="open-modal">
+        <!-- DESIGN CARD 11 -->
+     <div class="design-card" data-category="prototipos">
+      <img src="img/designs/Prototipo-Web.webp" alt="Prototipo de una Página Web" loading="lazy" class="open-modal">
      </div>
 
+        <!-- DESIGN CARD 12 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Castillo.svg" alt="Castillo" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 13 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/CastilloCementerio.svg" alt="Castillo Halloween" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 14 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Castillo-Medieval.svg" alt="Castillo Medieval" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 15 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/BastonDragotino.svg" alt="Baston Dragontino" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 16 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/CalabazaHalloweenBajando.svg" alt="Calabaza de Halloween" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 17 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Copo-Nieve-Color.svg" alt="Copo de Nieve" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 18 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/EscarabajoNegro.svg" alt="Escarabajo negro" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 19 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Espada-Medieval.svg" alt="Espada medieval" loading="lazy" class="open-modal">
+     </div>
+
+        <!-- DESIGN CARD 20 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/EstrellaVampiro.svg" alt="Estrella vampiro" loading="lazy" class="open-modal">
+     </div>
+
+     <!-- DESIGN CARD 21 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Hacha-Leñador.svg" alt="Hacha de leñador" loading="lazy" class="open-modal">
+     </div>
+
+     <!-- DESIGN CARD 22 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Libro.svg" alt="Libro" loading="lazy" class="open-modal">
+     </div>
+
+     <!-- DESIGN CARD 23 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/manzana.svg" alt="Manzana" loading="lazy" class="open-modal">
+     </div>
+
+     <!-- DESIGN CARD 24 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Triforce.svg" alt="Triforce" loading="lazy" class="open-modal">
+     </div>
+
+     
+     <!-- DESIGN CARD 25 -->
+     <div class="design-card" data-category="vectores">
+      <img src="img/designs/Palacio.svg" alt="Palacio" loading="lazy" class="open-modal">
+     </div>
+
+       <!-- DESIGN CARD 26 -->
+     <div class="design-card" data-category="fondos">
+      <img src="img/designs/Felicitacion-Cumpleaños.webp" alt="Felicitacion de Cumpleaños" loading="lazy" class="open-modal">
+     </div>
+
+     <!-- DESIGN CARD 11 -->
+     <div class="design-card" data-category="prototipos">
+      <img src="img/designs/Prototipo-Web-Tienda.webp" alt="Prototipo Web de una Tienda" loading="lazy" class="open-modal">
+     </div>
+     
     </div>
   </section>
   </main>
