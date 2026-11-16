@@ -11,7 +11,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
-/* ANIMACIONES CON INTERSECTION OBSERVER */
+/* ANIMACIONES PARA EL MENU */
 
 // Función genérica para observar elementos y añadirles la clase "visible"
 function activateOnScroll(elements) {
@@ -48,6 +48,7 @@ const observerFooter = new IntersectionObserver(entries => {
   });
 });
 observerFooter.observe(footer);
+
 
 // Abrir imagenes en el menu Diseños
 document.addEventListener("DOMContentLoaded", () => {

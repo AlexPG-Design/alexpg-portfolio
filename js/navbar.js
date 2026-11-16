@@ -1,8 +1,10 @@
+// Abrir y Gestionar el navegador
 document.addEventListener("DOMContentLoaded", () => {
   const navbarToggle = document.getElementById("navbar-toggle");
   const navbarLinks = document.querySelector(".navbar-links");
 
   if (!navbarToggle || !navbarLinks) return;
+
 
   // Abrir / cerrar menú en móvil
   navbarToggle.addEventListener("click", () => {
@@ -10,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     navbarToggle.setAttribute("aria-expanded", String(!isExpanded));
     navbarLinks.classList.toggle("active");
   });
+
 
   // Cerrar menú al cambiar a escritorio
   window.addEventListener("resize", () => {
@@ -19,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  
   // Cerrar menú al hacer clic en un enlace (en móvil)
   navbarLinks.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", () => {
